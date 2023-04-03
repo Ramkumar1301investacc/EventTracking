@@ -1,0 +1,85 @@
+
+.row{
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+
+
+#box1{
+    max-width:860px;
+    max-height: 600px;
+    background: white;
+    border-top-left-radius:  10px;
+    border-bottom-left-radius:  10px;
+
+}
+#box2{
+    max-width:480px;
+    min-height: 600px;
+ background: #37AFD4;
+    border-radius: 10px;
+    
+}
+#box3{
+    max-width:480px;
+    min-height: 600px;
+ background:white;
+}
+#logo{
+   max-width:  156px;
+    min-height:81px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+#analytics{
+    max-width :850px;
+    max-height: 650px;
+    margin-top :-100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h1{
+    font-family:sfprobold;
+    font: weight 700px; ;
+    
+    font-size: 3.125rem;
+    color: white;
+}
+.content{
+    font-family: 'sfpro';
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+}
+.logincontext{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+input{
+    min-width: 300px;
+    min-height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'sfpro';
+    padding-left:10px;
+}
+
+button{
+    font-family: 'sfprobold';
+    min-width: 95px;
+    min-height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    background: white;
+    align-self: center;
+    color:red;
+    margin-left:100px;
+
+
+
+}
+button:hover {
+    background: #FE635E;
+    color:white;
+
+  }

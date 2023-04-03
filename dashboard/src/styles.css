@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+/*font : source San Pro */
+@font-face {
+    font-family: 'sfpro';
+    src: url('/assets/ProDisplayRegular.ttf');
+  }
+  
+@font-face {
+    font-family: 'sfprobold';
+    src: url('/assets/SFPRODISPLAYBOLD.OTF');
+}
+
+
+
+*{
+    margin: 0px;
+	padding: 0px;
+	border: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(117.96deg, #00C3FF 0%, #FFFF1C 65.66%);
+}
