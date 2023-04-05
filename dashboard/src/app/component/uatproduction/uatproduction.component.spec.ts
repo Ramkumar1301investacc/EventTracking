@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UatDashboardComponent } from './uat-dashboard.component';
+import { UatproductionComponent } from './uatproduction.component';
 
-describe('UatDashboardComponent', () => {
-  let component: UatDashboardComponent;
-  let fixture: ComponentFixture<UatDashboardComponent>;
+describe('UatproductionComponent', () => {
+  let component: UatproductionComponent;
+  let fixture: ComponentFixture<UatproductionComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ UatDashboardComponent ]
+      declarations: [ UatproductionComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(UatDashboardComponent);
+    fixture = TestBed.createComponent(UatproductionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
