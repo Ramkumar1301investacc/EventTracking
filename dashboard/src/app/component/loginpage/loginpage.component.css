@@ -1,8 +1,10 @@
-
-.row{
-    margin-top: 62px;
-    margin-bottom: 62px;
+body{
+    background: linear-gradient(117.96deg, #00C3FF 0%, #FFFF1C 65.66%);
+    height: 100vh;
+    width: 100vw;
 }
+
+
 
 
 #box1{
@@ -11,6 +13,7 @@
     background: white;
     border-top-left-radius:  10px;
     border-bottom-left-radius:  10px;
+    margin-top: 62px;
 
 }
 #box2{
@@ -18,6 +21,7 @@
     min-height: 600px;
  background: #37AFD4;
     border-radius: 10px;
+     margin-top: 62px;
     
 }
 #box3{
@@ -26,10 +30,11 @@
  background:white;
 }
 #logo{
-   max-width:  156px;
+   max-width: 156px;
     min-height:81px;
-    padding-top: 10px;
-    padding-left: 15px;
+    position: relative;
+    right:300px;
+    
 }
 #analytics{
     max-width :850px;
@@ -40,20 +45,26 @@
 }
 h1{
     font-family:sfprobold;
-    font: weight 700px; ;
+    font: weight 700px; 
+    position: relative;
+    right:120px;
+
     
     font-size: 3.125rem;
     color: white;
+
 }
 .content{
     font-family: 'sfpro';
     font-weight: 400;
     font-size: 1rem;
     color: white;
+    position: relative;
+    right:85px;
 }
 .logincontext{
     margin-top: 150px;
-    margin-left: 50px;
+    
 }
 input{
     min-width: 300px;
@@ -62,6 +73,8 @@ input{
     border-style: none;
     font-family: 'sfpro';
     padding-left:10px;
+    position: relative;
+    right:30px;
 }
 
 button{
@@ -71,9 +84,11 @@ button{
     border-radius: 5px;
     border-style: none;
     background: white;
-    align-self: center;
+    
     color:red;
     margin-left:100px;
+    position: relative;
+    right:85px;
 
 
 
