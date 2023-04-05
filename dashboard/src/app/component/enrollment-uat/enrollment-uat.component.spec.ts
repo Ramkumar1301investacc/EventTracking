@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UatproductionComponent } from './uatproduction.component';
+import { EnrollmentUatComponent } from './enrollment-uat.component';
 
-describe('UatproductionComponent', () => {
-  let component: UatproductionComponent;
-  let fixture: ComponentFixture<UatproductionComponent>;
+describe('EnrollmentUatComponent', () => {
+  let component: EnrollmentUatComponent;
+  let fixture: ComponentFixture<EnrollmentUatComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ UatproductionComponent ]
+      declarations: [ EnrollmentUatComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(UatproductionComponent);
+    fixture = TestBed.createComponent(EnrollmentUatComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
