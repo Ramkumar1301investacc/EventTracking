@@ -8,15 +8,17 @@ import { EnrollmentUatComponent } from './component/enrollment-uat/enrollment-ua
 
 
 const routes: Routes = [
-  {path:'' , component:LoginpageComponent},
+   { path: '', redirectTo: '/login', pathMatch: 'full' },
   {path:'login', component:LoginpageComponent},
-  {path:'navbar', component:NavbarComponent},
-  {path:'awsuat',component:EnrollmentUatComponent},
-  {path:'awsproduction' ,component:EnrollmentProductionComponent}
-  
-  
+  {
+    path: 'navbar',
+    component: NavbarComponent,
+    children: [
+      { path: 'awsuat', component: EnrollmentUatComponent, outlet: 'primary' },
+      { path: 'awsproduction', component: EnrollmentProductionComponent, outlet: 'primary' }
+    ]
+  }
 ];
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
