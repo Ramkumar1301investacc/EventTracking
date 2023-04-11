@@ -21,12 +21,12 @@
                         <p class="content">Access for only privilege user </p>
                     </div>
                     <div>
-                        <form >
+                        <form [formGroup]="formGroup">
                             <input type="email"  placeholder="Enter your Mail"  formControlName="username">
                             <br><br>
     
                             <input type="password" id="floatingInput" placeholder="Enter you Password" formControlName="password" ><br><br>
-                            <button routerLink="/navbar">Sign-In</button>
+                            <button (click)="trackSignin()" routerLink="/navbar">Sign-In</button>
                         </form>
     
                     </div>
