@@ -8,7 +8,7 @@ body{
 
 
 #box1{
-    max-width:860px;
+    width:50%;
     max-height: 600px;
     background: white;
     border-top-left-radius:  10px;
@@ -17,27 +17,28 @@ body{
 
 }
 #box2{
-    max-width:480px;
+    max-width:30%;
     min-height: 600px;
  background: #37AFD4;
     border-radius: 10px;
      margin-top: 62px;
     
 }
+
 #box3{
-    max-width:480px;
+    max-width:30%;
     min-height: 600px;
  background:white;
 }
 #logo{
-   max-width: 156px;
-    min-height:81px;
+   max-width: 50%;
+    min-height:10%;
     position: relative;
-    right:300px;
+    right:35%;
     
 }
 #analytics{
-    max-width :850px;
+    width :70%;
     max-height: 650px;
     margin-top :-100px;
     margin-left: 100px;
@@ -54,6 +55,9 @@ h1{
     color: white;
 
 }
+.logincontext{
+    margin-right: 0px;
+}
 .content{
     font-family: 'sfpro';
     font-weight: 400;
@@ -67,7 +71,7 @@ h1{
     
 }
 input{
-    min-width: 300px;
+    width: 80%;
     min-height: 40px;
     border-radius: 5px;
     border-style: none;
@@ -97,4 +101,10 @@ button:hover {
     background: #FE635E;
     color:white;
 
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #box2{
+        width:100vh;
+    }
   }
