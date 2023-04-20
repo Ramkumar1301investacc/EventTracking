@@ -11,12 +11,12 @@
 
 @font-face {
     font-family: 'sfpro';
-    src: url('/assets/ProDisplayRegular.ttf');
+    src: url('assets/ProDisplayRegular.ttf');
   }
   
 @font-face {
     font-family: 'sfprobold';
-    src: url('/assets/SFPRODISPLAYBOLD.OTF');
+    src: url('assets/SFPRODISPLAYBOLD.OTF');
 }
 
 
